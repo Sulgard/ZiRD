@@ -76,3 +76,4 @@ FOREIGN KEY(department_id) REFERENCES DEPARTMENTS(department_id);
 ALTER TABLE EMPLOYEES 
 ADD CONSTRAINT fk_manager
 FOREIGN KEY(manager_id) REFERENCES EMPLOYEES(employee_id);
+
